@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: white;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-around;
+   box-shadow: 0 4px 5px grey;
+}
+.left{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.right{
+display: flex;
+justify-content: left;
+align-items:wide;
+
+}
+.container3{
+    position: relative;
+    max-width: 100%;
+    margin: 100px;
+  }
+  .container3 .content{
+    position:absolute;
+    background: rgb(0, 0, 0); 
+  background: rgba(0, 0, 0, 0.5);
+  color: #f1f1f1;
+  width: 100%;
+  padding: 20px;
+  }
+  .cards-container{
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+    border: 5px solid red;
+}
+  .card-image{
+    width: 200px;}
+
+    .cards-container2{
+     
+      display: flex;
+      justify-content: space-between;
+      width: 80vw;
+      margin: auto;
+      border: 5px solid red;
+  }
+  .menu{
+  display: inline;
+      align-items: center;
+      justify-content: center;
+  }
+  .cards-container3{
+    display: flex;
+      
+      width: 80vw;
+      margin: auto;
+      border: 5px solid red;
+  }
+  .card2{
+    padding: 10px;
+    width: 200px;
+   
+}
+.findus{
+ 
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+  border: 5px solid red;
+} 
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80vw;
+  margin: auto;
+  border: 5px solid pink; 
+}
+h5{
+  margin: 20px;
+}
+
+
+  
